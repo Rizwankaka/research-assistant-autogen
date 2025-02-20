@@ -11,9 +11,9 @@ class ResearchAgents:
         # Configure for Groq specifically
         self.llm_config = {
             'config_list': [{
-                'model': 'llama-3.3-70b-versatile',
+                'model': 'mixtral-8x7b-32768',  # Updated model name
                 'api_key': self.groq_api_key,
-                'base_url': "https://api.groq.com/openai/v1",
+                'base_url': "https://api.groq.com/v1",  # Corrected base URL
                 'api_type': "groq"
             }],
             'cache_seed': None,  # Disable caching
