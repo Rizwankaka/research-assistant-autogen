@@ -55,11 +55,13 @@ Welcome to the Virtual Research Assistant project! This powerful tool helps rese
 ## 🏗️ Project Structure
 
 ```
-.
-├── app.py              # Main Streamlit application
-├── agents.py           # AI agents configuration
-├── data_loader.py      # Paper fetching functionality
-└── requirements.txt    # Project dependencies
+research-assistant/
+├── app.py
+├── agents.py
+├── data_loader.py
+├── requirements.txt
+└── .streamlit/
+    └── config.toml
 ```
 
 ## ✨ Features in Detail
