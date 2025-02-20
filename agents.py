@@ -11,7 +11,7 @@ class ResearchAgents:
         # Configure for Groq specifically
         self.llm_config = {
             'config_list': [{
-                'model': 'mixtral-8x7b-32768',
+                'model': 'deepseek-r1-distill-llama-70b',
                 'api_key': self.groq_api_key,
                 'base_url': "https://api.groq.com/openai/v1",  # Updated base URL
                 'api_type': "openai"  # Changed to openai type
